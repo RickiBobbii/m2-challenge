@@ -19,6 +19,13 @@ body {
     padding: 0;
 }
 
+/* Avatar */
+.avatar {
+   height: 50px;
+   border-radius: 50%;
+
+}
+
 /* Name and NavBar section */
 header {
     display: flex;
@@ -32,6 +39,7 @@ header {
 h1{
     animation: pulsate 0.11s ease-in-out infinite alternate;
     margin-left: 20px;
+    flex: auto;
 }
 
 main {
@@ -59,16 +67,8 @@ nav a {
 nav a:hover {
     color: #fff;
 }
+
 /* Contact section */
-/* footer {
-    width: 100%;
-    bottom: 0;
-    padding: 20px;
-    text-align: center;
-    background: rgb(41, 41, 184);
-    color: whitesmoke;
-    margin-top: auto;
-} */
 footer {
     display: flex;
     justify-content: space-between;
@@ -80,6 +80,8 @@ footer {
 
 footer h3 {
     text-align: center;
+    margin-left: 20px;
+    font-size: 1.5rem;
 }
 
 /* Banner Image */
@@ -112,7 +114,7 @@ footer h3 {
     padding: 5%;
     width: 150px;
     margin-bottom: 5px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     flex: 0 1 auto;
 }
@@ -192,7 +194,7 @@ footer h3 {
     text-align: center;
     text-decoration: underline;
     text-underline-position: under;
-    padding: 5%;
+    font-size: 1.75rem;
     width: 100%;
     margin-bottom: 5px;
 }
@@ -215,6 +217,8 @@ footer h3 {
         padding:5px;
         text-align: center;
         border: 2px solid black;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 }
 
@@ -229,14 +233,11 @@ footer h3 {
         position: relative;
         background-size: cover;
         overflow: hidden;
-        float: right;
-        
-    }
-    
+        float: right;    
+    }    
 }
 
-
-
+/* Code below from https://css-tricks.com/how-to-create-neon-text-with-css/ */
 @keyframes pulsate {
     
     100% {
@@ -266,3 +267,4 @@ footer h3 {
       0 0 140px #f09;
   
   }
+}
