@@ -29,6 +29,27 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-## Licence
+## Acknowledgment
+
+The Glowing Header Name color code was from https://css-tricks.com/how-to-create-neon-text-with-css/
+All images were AI generated from Microsoft Bing Image Creator.
+
+## Project Status
+
+This is a work in progress as per the class outline.  Links and text will be added in as the class progresses.
+Images and Avatar are placeholders.
+
+## Visuals
+
+![Screenshoot of webpage][def]
+
+## Github Link
+
+[Week-two Challenge Link](https://rickibobbii.github.io/m2-challenge/)
+
+
+## License
 
 MIT License
+
+[def]: ./assets/images/m2screenshot.png
